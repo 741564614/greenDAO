@@ -2,6 +2,7 @@
  * Copyright (C) 2011-2015 Markus Junginger, greenrobot (http://greenrobot.de)
  *
  * This file is part of greenDAO Generator.
+信协2017git作业
  * 
  * greenDAO Generator is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -37,7 +38,7 @@ public class DeadlockPreventionTest extends AbstractDaoSessionTest<DaoMaster, Da
     }
 
     // Runs pretty long, only run manually
-    public void _testLoadAll() throws InterruptedException {
+    public void testLoadAll() throws InterruptedException {
         dao = daoSession.getTestEntityDao();
         List<TestEntity> entities = new ArrayList<>();
         for (int i = 0; i < 10000; i++) {
